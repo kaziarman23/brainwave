@@ -5,7 +5,6 @@ import collabApps from "../constants";
 import { brainwaveSymbol, check } from "../assets";
 import Button from "./Button";
 
-
 // we have to import the design folder in the components folder from the github
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
