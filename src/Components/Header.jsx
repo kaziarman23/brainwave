@@ -3,13 +3,13 @@ import { brainwave } from "../assets";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { useState } from "react";
-
-
-//have to copy the { constants, desing } folder from github to get the datas
-import { navigation } from "../constants";
-import { HamburgerMenu } from "../desing/Header";
-// have to install some depandensi  for not alowing scroll when the mobile menubar is open : npm i scroll-lock
 import {enablePageScroll, disablePageScroll} from "scroll-lock"
+import { navigation } from "../constants";
+
+
+//have to copy the  desing  folder from github to get the datas
+import { HamburgerMenu } from "../desing/Header";
+
 
 
 

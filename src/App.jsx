@@ -29,3 +29,14 @@ function App() {
 }
 
 export default App;
+
+// 3 type's of bug found in Benefits, Collaboration, Header, Hero, Pricing, Roadmap, services components.
+
+// type 1 : design file dosn't exesist
+// solution: have to import design folder in the components folder from github
+
+// type 2 : unknow property is given in the Header component
+// solution: have to check the github
+
+// type 3 : messed up in Roadmap component
+// solution: have to check the github

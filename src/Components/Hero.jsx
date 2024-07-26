@@ -6,13 +6,13 @@ import { heroIcons } from "../constants";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import { ScrollParallax } from "react-just-parallax";
 
 
 // have to import from design component that is not fetch from github till now
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
-// we have to install: npm i react-just-parallax
-import { ScrollParallax } from "react-just-parallax";
+
 
 function Hero() {
   const parallaxRef = useRef(null);
