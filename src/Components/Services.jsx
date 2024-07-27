@@ -1,8 +1,8 @@
 import { check, service1, service2, service3 } from "../assets";
-import Heading from "./Heading";
-import Section from "./Section";
+import Heading from "./Heading.jsx";
+import Section from "./Section.jsx";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
-import Generating from "./Generating";
+import Generating from "./Generating.jsx";
 import {
   PhotoChatMessage,
   Gradient,

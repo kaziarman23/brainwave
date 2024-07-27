@@ -1,8 +1,8 @@
 import { smallSphere, stars } from "../assets";
-import Heading from "./Heading";
-import Section from "./Section";
-import PricingList from "./PricingList";
-import { LeftLine, RightLine } from "./design/Pricing";
+import Heading from "./Heading.jsx";
+import Section from "./Section.jsx";
+import PricingList from "./PricingList.jsx";
+import { LeftLine, RightLine } from "./design/Pricing.jsx";
 
 function Pricing() {
   return (

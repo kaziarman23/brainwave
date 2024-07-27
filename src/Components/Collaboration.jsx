@@ -1,10 +1,10 @@
-import Section from "./Section";
+import Section from "./Section.jsx";
 import { collabContent } from "../constants";
 import { collabText } from "../constants";
 import { collabApps } from "../constants";
 import { brainwaveSymbol, check } from "../assets";
-import Button from "./Button";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import Button from "./Button.jsx";
+import { LeftCurve, RightCurve } from "./design/Collaboration.jsx";
 
 function Collaboration() {
   return (

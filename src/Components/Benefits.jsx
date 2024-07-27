@@ -1,9 +1,9 @@
-import Heading from "./Heading";
-import Section from "./Section";
+import Heading from "./Heading.jsx";
+import Section from "./Section.jsx";
 import { benefits } from "../constants";
 import Arrow from "../assets/svg/Arrow";
 import ClipPath from "../assets/svg/ClipPath";
-import { GradientLight } from "./design/Benefits";
+import { GradientLight } from "./design/Benefits.jsx";
 
 function Benefits() {
   return (

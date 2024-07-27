@@ -1,4 +1,4 @@
-import Section from "./Section";
+import Section from "./Section.jsx";
 import { socials } from "../constants";
 
 function Footer() {
