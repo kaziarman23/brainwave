@@ -1,5 +1,5 @@
 import Section from "./Section";
-import curve, { heroBackground, robot } from "../assets";
+import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import { useRef } from "react";
 import { heroIcons } from "../constants";
@@ -7,12 +7,7 @@ import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 import { ScrollParallax } from "react-just-parallax";
-
-
-// have to import from design component that is not fetch from github till now
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-
-
 
 function Hero() {
   const parallaxRef = useRef(null);
@@ -74,7 +69,10 @@ function Hero() {
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <Notification className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex" title="Code generation"/>
+                  <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                    title="Code generation"
+                  />
                 </ScrollParallax>
               </div>
             </div>
@@ -92,7 +90,7 @@ function Hero() {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="hidden relative z-10  mt-20 lg:block"/>
+        <CompanyLogos className="hidden relative z-10  mt-20 lg:block" />
       </div>
       <BottomLine />
     </Section>

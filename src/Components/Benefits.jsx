@@ -1,11 +1,9 @@
 import Heading from "./Heading";
 import Section from "./Section";
-import benefits from "../constants";
+import { benefits } from "../constants";
 import Arrow from "../assets/svg/Arrow";
 import ClipPath from "../assets/svg/ClipPath";
-
-// have to add the design folder in the components folder
-import { GradientLight } from "./desing/Benefits";
+import { GradientLight } from "./design/Benefits";
 
 function Benefits() {
   return (

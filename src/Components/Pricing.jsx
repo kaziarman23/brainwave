@@ -2,9 +2,7 @@ import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
 import Section from "./Section";
 import PricingList from "./PricingList";
-
-// have to import the design folder in the components folder from github
-import { LeftLine, RightLine } from "./desing/Pricing";
+import { LeftLine, RightLine } from "./design/Pricing";
 
 function Pricing() {
   return (
